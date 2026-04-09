@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kalp Sanghavi – Product Manager & Builder. Portfolio of 9 products spanning enterprise SaaS, AI, HR tech, helpdesk, and web design at EQInt Global and Wonderly AI.">
+    <title>Kalp Sanghavi · Product Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAV ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-ks">KS</span>
+                <span class="logo-text">Kalp Sanghavi</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <canvas class="particles-canvas" id="particlesCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-in" style="--delay:0.1s">
+                <span class="badge-dot"></span>
+                Product Manager & Builder
+            </div>
+            <h1 class="hero-title animate-in" style="--delay:0.2s">
+                Hi, I'm <span class="gradient-text">Kalp Sanghavi</span>
+            </h1>
+            <p class="hero-subtitle animate-in" style="--delay:0.3s">
+                I turn complex enterprise challenges into elegant digital products.<br>
+                From AI assistants to helpdesks — I build things that matter.
+            </p>
+            <div class="hero-stats animate-in" style="--delay:0.4s">
+                <div class="stat">
+                    <span class="stat-num" data-count="9">0</span>
+                    <span class="stat-label">Products Built</span>
+                </div>
+
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-num" data-count="2">0</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+            </div>
+            <div class="hero-cta animate-in" style="--delay:0.5s">
+                <a href="#products" class="btn-primary">
+                    <span>View Products</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#contact" class="btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-scroll animate-in" style="--delay:0.7s">
+                <div class="scroll-indicator">
+                    <div class="scroll-dot"></div>
+                </div>
+                <span>Scroll to explore</span>
+            </div>
+        </div>
+        <div class="hero-image animate-in" style="--delay:0.3s">
+            <div class="hero-img-wrapper">
+                <img src="hero.png" alt="Product Portfolio Dashboard" class="hero-img">
+                <div class="hero-img-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span> About Me
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">From UX Designer to<br><span class="gradient-text">Product Manager</span></h2>
+                    <p class="about-desc">
+                        I'm a Product Manager at <strong>EQInt Global</strong>, an Oracle consulting company, where I design and build enterprise-grade products that solve real operational problems for global clients.
+                    </p>
+                    <p class="about-desc">
+                        My journey started at <strong>Wonderly AI</strong>, where I sharpened my UX design skills building consumer apps. That design-first mindset now drives how I approach every product decision deeply user-centric, but always business-aware.
+                    </p>
+                    <div class="about-companies">
+                        <div class="company-pill">
+                            <span class="company-dot" style="background: #4f8ef7;"></span>
+                            EQInt Global · Product Manager
+                        </div>
+                        <div class="company-pill">
+                            <span class="company-dot" style="background: #a78bfa;"></span>
+                            Wonderly AI · UX Designer &amp; Product Lead
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card ac-1">
+                        <div class="ac-icon">🎯</div>
+                        <h4>Problem Solver</h4>
+                        <p>I dig deep into user pain points and translate them into product requirements</p>
+                    </div>
+                    <div class="about-card ac-2">
+                        <div class="ac-icon">🤖</div>
+                        <h4>AI Product Builder</h4>
+                        <p>Shipped AI-powered products including voice assistants, chat bots, and smart dashboards</p>
+                    </div>
+                    <div class="about-card ac-3">
+                        <div class="ac-icon">🎨</div>
+                        <h4>Design-First PM</h4>
+                        <p>With roots in UX design, I build products that are beautiful and functional</p>
+                    </div>
+                    <div class="about-card ac-4">
+                        <div class="ac-icon">🏗️</div>
+                        <h4>Hands-On Builder</h4>
+                        <p>I don't just manage — I code, design, and ship alongside the team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span> Skills & Tools
+            </div>
+            <h2 class="section-title text-center">My Toolbox</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <div class="skill-group-icon">🎨</div>
+                    <h4 class="skill-group-title">UI/UX Design</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">Prototyping</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-icon">💻</div>
+                    <h4 class="skill-group-title">Web Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Cloudflare</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-icon">📱</div>
+                    <h4 class="skill-group-title">Mobile Dev</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Android</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Android Studio</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-icon">☁️</div>
+                    <h4 class="skill-group-title">Cloud & Infra</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">OCI</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-icon">🏢</div>
+                    <h4 class="skill-group-title">Product & Oracle</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Oracle HCM</span>
+                        <span class="skill-tag">Oracle SCM</span>
+                        <span class="skill-tag">Product Mgmt</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Roadmapping</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-icon">🤖</div>
+                    <h4 class="skill-group-title">AI & Automation</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Gemini API</span>
+                        <span class="skill-tag">OpenAI</span>
+                        <span class="skill-tag">RAG Systems</span>
+                        <span class="skill-tag">Chrome Extensions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span> Product Portfolio
+            </div>
+            <h2 class="section-title text-center">Products I've Built</h2>
+            <p class="section-desc text-center">9 products across enterprise SaaS, AI, consumer apps, and web design</p>
+
+            <!-- ERA TABS -->
+            <div class="era-tabs">
+                <button class="era-tab active" data-era="all" id="tab-all">All Products</button>
+                <button class="era-tab" data-era="eqint" id="tab-eqint">
+                    <span class="era-dot" style="background:#4f8ef7"></span> EQInt Global
+                </button>
+                <button class="era-tab" data-era="wonderly" id="tab-wonderly">
+                    <span class="era-dot" style="background:#a78bfa"></span> Wonderly AI
+                </button>
+            </div>
+
+            <!-- PRODUCTS GRID -->
+            <div class="products-grid" id="productsGrid">
+
+                <!-- ===== EQInt Products ===== -->
+
+                <!-- 1. FusionDesk -->
+                <article class="product-card featured" data-era="eqint" id="product-fusiondesk">
+                    <div class="product-img-wrap">
+                        <img src="fusiondesk.png" alt="FusionDesk Enterprise Support Portal" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <a href="https://support.eqintglobal.com" target="_blank" class="view-btn" rel="noopener">View Live →</a>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-eqint">EQInt Global</span>
+                            <span class="product-type">SaaS · Helpdesk</span>
+                        </div>
+                        <h3 class="product-name">FusionDesk</h3>
+                        <p class="product-tagline">More than just ERP support — a business conversation hub</p>
+                        <p class="product-desc">
+                            A multi-channel enterprise support portal connecting clients to EQInt's Oracle support team. Built with real-time chat, AI-powered ticket classification, smart ticket analytics, and support across SCM, HCM, Finance &amp; Technical domains.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Real-time Chat</span>
+                            <span class="tag">AI Classification</span>
+                            <span class="tag">Ticket Management</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Oracle ERP</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Product Manager · Full-Stack</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 2. EQInt Savvy -->
+                <article class="product-card featured" data-era="eqint" id="product-savvy">
+                    <div class="product-img-wrap">
+                        <img src="savvy.png" alt="EQInt Savvy AI HR Management" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">Enterprise Product</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-eqint">EQInt Global</span>
+                            <span class="product-type">AI · HR Tech</span>
+                        </div>
+                        <h3 class="product-name">EQInt Savvy</h3>
+                        <p class="product-tagline">AI-powered HR management platform for modern enterprises</p>
+                        <p class="product-desc">
+                            A comprehensive HR management system with an AI assistant at its core. Manages employee attendance, payroll, leave requests, punching, notifications, and generates reports — all through natural language conversations.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">AI Chat Assistant</span>
+                            <span class="tag">Payroll</span>
+                            <span class="tag">Leave Management</span>
+                            <span class="tag">Attendance</span>
+                            <span class="tag">Laravel + Python</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Product Manager · PM + Dev</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 3. Ora Assist -->
+                <article class="product-card" data-era="eqint" id="product-ora">
+                    <div class="product-img-wrap">
+                        <img src="ora-assist.png" alt="Ora Assist AI Oracle HCM Assistant" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">Enterprise Product</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-eqint">EQInt Global</span>
+                            <span class="product-type">AI · HCM</span>
+                        </div>
+                        <h3 class="product-name">Ora Assist</h3>
+                        <p class="product-tagline">Screen-aware AI assistant embedded in Oracle HCM Cloud</p>
+                        <p class="product-desc">
+                            An intelligent AI assistant that lives inside Oracle HCM Cloud. It understands what's on screen, supports voice input, multilingual conversations (English &amp; Arabic), and connects to Oracle REST APIs to help employees complete HR tasks faster.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Oracle HCM</span>
+                            <span class="tag">Voice AI</span>
+                            <span class="tag">Multilingual</span>
+                            <span class="tag">Chrome Extension</span>
+                            <span class="tag">RAG</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Product Manager · AI Architect</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 4. EQInt Website -->
+                <article class="product-card" data-era="eqint" id="product-eqint-web">
+                    <div class="product-img-wrap">
+                        <img src="eqint-website.png" alt="EQInt Global Corporate Website" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <a href="https://support.eqintglobal.com/WebsiteV9" target="_blank" class="view-btn" rel="noopener">View Live →</a>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-eqint">EQInt Global</span>
+                            <span class="product-type">Web · Corporate</span>
+                        </div>
+                        <h3 class="product-name">EQInt Global Website</h3>
+                        <p class="product-tagline">Corporate website for an Oracle consulting powerhouse</p>
+                        <p class="product-desc">
+                            Designed and developed the full corporate website for EQInt Global — an Oracle consulting company serving enterprise clients globally. Includes service pages for HCM, SCM, Finance, OCI, a contact system, and a global office map.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">HTML/CSS/JS</span>
+                            <span class="tag">Responsive</span>
+                            <span class="tag">Oracle Branding</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Contact Forms</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Designer &amp; Developer</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 5. Invoice 360 -->
+                <article class="product-card" data-era="eqint" id="product-invoice">
+                    <div class="product-img-wrap">
+                        <img src="invoice360.png" alt="EQInt Invoice 360 Platform" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">Enterprise Product</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-eqint">EQInt Global</span>
+                            <span class="product-type">FinTech · Automation</span>
+                        </div>
+                        <h3 class="product-name">EQInt Invoice 360</h3>
+                        <p class="product-tagline">End-to-end invoice processing with AI data extraction</p>
+                        <p class="product-desc">
+                            An intelligent invoice management platform that automates the AP workflow — from PDF ingestion and AI-powered data extraction to multi-stage approval workflows and supplier management. Dramatically reduces manual invoicing effort.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">AI Extraction</span>
+                            <span class="tag">PDF Processing</span>
+                            <span class="tag">Approval Workflows</span>
+                            <span class="tag">Supplier Hub</span>
+                            <span class="tag">Finance</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Product Manager · PM + Dev</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ===== Wonderly Products ===== -->
+
+                <!-- 6. Wonderly Website -->
+                <article class="product-card" data-era="wonderly" id="product-wonderly-web">
+                    <div class="product-img-wrap">
+                        <img src="wonderly-web.png" alt="Wonderly.in Company Website" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">Company Website</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-wonderly">Wonderly AI</span>
+                            <span class="product-type">Web · Branding</span>
+                        </div>
+                        <h3 class="product-name">Wonderly.in</h3>
+                        <p class="product-tagline">Official website for a social media AI startup</p>
+                        <p class="product-desc">
+                            Designed and developed the complete company website for Wonderly AI — a social media app startup focused on 60-second educational videos. Built the online presence from scratch, reflecting the brand's vision of self-improvement through short-form content.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Branding</span>
+                            <span class="tag">WordPress</span>
+                            <span class="tag">UX</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>UX Designer &amp; Developer</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 7. Wonderly UI/UX -->
+                <article class="product-card" data-era="wonderly" id="product-wonderly-ui">
+                    <div class="product-img-wrap">
+                        <img src="wonderly-ui.png" alt="Wonderly UI/UX Mobile App Designs" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">UI/UX Portfolio</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-wonderly">Wonderly AI</span>
+                            <span class="product-type">UI/UX · Mobile</span>
+                        </div>
+                        <h3 class="product-name">Wonderly UI/UX Designs</h3>
+                        <p class="product-tagline">Interactive mobile app design with 20+ screens</p>
+                        <p class="product-desc">
+                            Designed 20+ interactive UI screens for the Wonderly mobile app concept, including the complete onboarding journey, login flow, and the main homepage. Focused on simplicity and engaging visual story-telling for the self-improvement experience.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Prototyping</span>
+                            <span class="tag">Onboarding</span>
+                            <span class="tag">Mobile UX</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>UX Designer</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 8. Wonderly Android -->
+                <article class="product-card" data-era="wonderly" id="product-wonderly-android">
+                    <div class="product-img-wrap">
+                        <img src="wonderly-android.png" alt="Wonderly Android Self-Improvement App" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <a href="https://youtu.be/MpnIg2tRjbg" target="_blank" class="view-btn" rel="noopener">Watch Demo →</a>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-wonderly">Wonderly AI</span>
+                            <span class="product-type">Android · Social</span>
+                        </div>
+                        <h3 class="product-name">Wonderly Android App</h3>
+                        <p class="product-tagline">Self-improvement through 60-second educational videos</p>
+                        <p class="product-desc">
+                            Worked on the Android development of Wonderly — a social media app where users watch 60-second growth-oriented videos. Built and integrated the Homepage, Newsfeed, Discover, Login, Profile, and Notifications modules using Firebase backend.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Video Feed</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Product Lead</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 9. IceyMicey -->
+                <article class="product-card" data-era="wonderly" id="product-iceymicey">
+                    <div class="product-img-wrap">
+                        <img src="iceymicey.png" alt="IceyMicey Mocktails Food Truck Website" class="product-img" loading="lazy">
+                        <div class="product-img-overlay">
+                            <span class="view-btn">Food &amp; Beverage Web</span>
+                        </div>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-meta">
+                            <span class="product-era era-wonderly">Freelance</span>
+                            <span class="product-type">Web · F&B</span>
+                        </div>
+                        <h3 class="product-name">IceyMicey.com</h3>
+                        <p class="product-tagline">"The Coolest House in Town" — Mocktails food truck website</p>
+                        <p class="product-desc">
+                            Designed and developed the website for IceyMicey — a popular mocktail food truck in Ahmedabad known as "Bar On The Wheels." Showcases their signature fruit shots, mocktails, mojitos, and healthy beverage menu with a vibrant, fresh brand identity.
+                        </p>
+                        <div class="product-tags">
+                            <span class="tag">Web Design</span>
+                            <span class="tag">Branding</span>
+                            <span class="tag">F&B</span>
+                            <span class="tag">Ahmedabad</span>
+                        </div>
+                        <div class="product-role">
+                            <span class="role-icon">👷</span>
+                            <span>Role: <strong>Designer &amp; Developer</strong></span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TIMELINE (commented out) =====
+    <section class="timeline-section">
+        <div class="container">
+            <div class="section-label">
+                <span class="label-dot"></span> Journey
+            </div>
+            <h2 class="section-title text-center">Career Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item tl-right">
+                    <div class="tl-dot tl-dot-blue"></div>
+                    <div class="tl-card">
+                        <span class="tl-date">2023 – Present</span>
+                        <h4 class="tl-title">Product Manager</h4>
+                        <p class="tl-company">EQInt Global · Ahmedabad, India</p>
+                        <p class="tl-desc">Leading product development for enterprise Oracle tools — FusionDesk, Savvy AI, Ora Assist, Invoice 360, and the corporate website.</p>
+                    </div>
+                </div>
+                <div class="timeline-item tl-left">
+                    <div class="tl-dot tl-dot-purple"></div>
+                    <div class="tl-card">
+                        <span class="tl-date">2021 – 2023</span>
+                        <h4 class="tl-title">UX Designer</h4>
+                        <p class="tl-company">Wonderly AI</p>
+                        <p class="tl-desc">Designed the company website, 20+ app UI screens, and contributed to Android development. Worked across design, development, and product teams.</p>
+                    </div>
+                </div>
+                <div class="timeline-item tl-right">
+                    <div class="tl-dot tl-dot-green"></div>
+                    <div class="tl-card">
+                        <span class="tl-date">2021</span>
+                        <h4 class="tl-title">Freelance Designer</h4>
+                        <p class="tl-company">Independent</p>
+                        <p class="tl-desc">Built IceyMicey.com — a food truck website for a local mocktail brand in Ahmedabad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    ===== END TIMELINE ===== -->
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-glow"></div>
+                <div class="section-label" style="justify-content:center">
+                    <span class="label-dot"></span> Let's Connect
+                </div>
+                <h2 class="section-title text-center">Got something to build?</h2>
+                <p class="contact-desc">
+                    I'm passionate about enterprise products, AI tools, and solving hard problems. Let's talk.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:kalp@eqintglobal.com" class="contact-link" id="contact-email">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value">kalp@eqintglobal.com</div>
+                        </div>
+                    </a>
+                    <a href="https://medium.com/@kalpsanghavi" target="_blank" class="contact-link" id="contact-medium" rel="noopener">
+                        <span class="contact-icon">📝</span>
+                        <div>
+                            <div class="contact-label">Medium</div>
+                            <div class="contact-value">@kalpsanghavi</div>
+                        </div>
+                    </a>
+                    <a href="https://eqintglobal.com" target="_blank" class="contact-link" id="contact-website" rel="noopener">
+                        <span class="contact-icon">🌐</span>
+                        <div>
+                            <div class="contact-label">Company</div>
+                            <div class="contact-value">eqintglobal.com</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <span class="logo-ks">KS</span>
+                    <span class="logo-text">Kalp Sanghavi</span>
+                </div>
+                <p class="footer-copy">Built with ❤️ — 2026 · Products Portfolio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
